@@ -116,7 +116,7 @@ const productController = async (req: IncomingMessage, res: ServerResponse) => {
       JSON.stringify({
         message: "Product deleted successfully!",
       }),
-    );
+    ); 
   }
 };
 
